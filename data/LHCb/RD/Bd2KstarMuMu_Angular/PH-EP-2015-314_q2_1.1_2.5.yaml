@@ -1,0 +1,53 @@
+BibCite: Aaij:2015oid
+BibEntry: '@article{Aaij:2015oid,
+     author         = "Aaij, Roel and others",
+     title          = "{Angular analysis of the $B^{0} \to K^{*0} \mu^{+}
+                       \mu^{-}$ decay using 3 fb$^{-1}$ of integrated
+                       luminosity}",
+     collaboration  = "LHCb",
+     journal        = "JHEP",
+     volume         = "02",
+     year           = "2016",
+     pages          = "104",
+     doi            = "10.1007/JHEP02(2016)104",
+     eprint         = "1512.04442",
+     archivePrefix  = "arXiv",
+     primaryClass   = "hep-ex",
+     reportNumber   = "CERN-PH-EP-2015-314, LHCB-PAPER-2015-051",
+     SLACcitation   = "%%CITATION = ARXIV:1512.04442;%%"
+}'
+DOI: 10.1007/JHEP02(2016)104
+FileName: PH-EP-2015-314_q2_1.1_2.5.yaml
+Name: Kstarmumu_Angular_q2_1.1_2.5
+Source: LHCb
+SubmissionYear: 2015
+PublicationYear: 2016
+Arxiv: 1512.04442
+Collaborations: LHCb
+ExperimentalDataLumi: 3fb
+ExperimentalDataYears: 2011,2012
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>1.1 && q2< 2.5"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_nDimBifurGaussian
+
+Observables:
+- [ "F_L", 0.660, 0.083, -0.077, 0.022 ]
+- [ "S_3", -0.077, 0.087, -0.105, 0.005 ]
+- [ "S_4", -0.077, 0.111, -0.113, 0.005 ]
+- [ "S_5", 0.137, 0.099, -0.094, 0.009 ]
+- [ "A_FB", -0.191 +0.068, -0.080, 0.012 ] 
+- [ "S_7", -0.219 +0.094, -0.104, 0.004 ]
+- [ "S_8", -0.098 +0.108, -0.123, 0.005 ]
+- [ "S_9", -0.119 +0.087, -0.104, 0.005 ]
+Correlation:
+-  [ "F_L", "S_3", "S_4", "S_5", "A_FB", "S_7", "S_8", "S_9" ]
+-  [  1.00  ,    0.09  ,    0.07  ,    0.07  ,    0.09  ,   -0.05  ,   -0.04  ,    0.08 ] 
+-  [  0.09  ,    1.00  ,   -0.04  ,    0.04  ,    0.01  ,    0.13  ,    0.09  ,    0.12 ]
+-  [  0.07  ,   -0.04  ,    1.00  ,   -0.22  ,   -0.01  ,   -0.00  ,   -0.05  ,    0.03 ] 
+-  [  0.07  ,    0.04  ,   -0.22  ,    1.00  ,   -0.14  ,   -0.11  ,   -0.03  ,   -0.21 ]
+-  [  0.09  ,    0.01  ,   -0.01  ,   -0.14  ,    1.00  ,   -0.03  ,   -0.10  ,   -0.11 ]   
+-  [ -0.05  ,    0.13  ,   -0.00  ,   -0.11  ,   -0.03  ,    1.00  ,   -0.11  ,    0.23 ] 
+-  [ -0.04  ,    0.09  ,   -0.05  ,   -0.03  ,   -0.10  ,   -0.11  ,    1.00  ,   -0.04 ]
+-  [  0.08  ,    0.12 ,    0.03 ,   -0.21 ,   -0.11 ,    0.23 ,   -0.04 ,    1.00 ]
