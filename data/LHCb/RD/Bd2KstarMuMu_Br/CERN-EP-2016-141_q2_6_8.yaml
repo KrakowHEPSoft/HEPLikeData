@@ -1,0 +1,37 @@
+BibCite: Aaij:2016flj
+BibEntry: '@article{Aaij:2016flj,
+      author         = "Aaij, Roel and others",
+      title          = "{Measurements of the S-wave fraction in $B^{0}\rightarrow
+                        K^{+}\pi^{-}\mu^{+}\mu^{-}$ decays and the
+                        $B^{0}\rightarrow K^{\ast}(892)^{0}\mu^{+}\mu^{-}$
+                        differential branching fraction}",
+      collaboration  = "LHCb",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2016",
+      pages          = "047",
+      doi            = "10.1007/JHEP11(2016)047, 10.1007/JHEP04(2017)142",
+      note           = "[Erratum: JHEP04,142(2017)]",
+      eprint         = "1606.04731",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-141, LHCB-PAPER-2016-012",
+      SLACcitation   = "%%CITATION = ARXIV:1606.04731;%%"
+      }'
+DOI: 10.1007/JHEP04(2017)142
+FileName: CERN-EP-2016-141_q2_6_8.yaml
+Name: Kstarmumu_Br_q2_6_8
+Source: LHCb
+SubmissionYear: 2016
+PublicationYear: 2016
+Arxiv: 1606.04731
+Collaborations: LHCb
+ExperimentalDataLumi: 3fb
+ExperimentalDataYears: 2011,2012
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>6 && q2< 8"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_BifurGaussian
+Observables:
+- [ "Br", 0.429e-7, 0.028e-7, -0.027e-7, 0.031e-7 ]
