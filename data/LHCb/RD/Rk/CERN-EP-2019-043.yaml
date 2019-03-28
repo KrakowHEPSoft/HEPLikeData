@@ -25,6 +25,6 @@ Decay: Rk
 Kinematics: "q2>1.1 && q2< 6"
 HLAuthor: Marcin Chrzaszcz
 HLEmail: mchrzasz@cern.ch
-HL_Type: HL_nDimBifurGaussian
-ROOTData: data/LHCb/RD/B2KEllEll/Rk.root
+HL_Type: HL_ProfLikelihood
+ROOTData: data/LHCb/RD/Rk/Rk.root
 TGraphPath: "Rk"
