@@ -1,0 +1,30 @@
+BibCite: Aaij:2019wad
+BibEntry: '@article{Aaij:2019wad,
+      author         = "Aaij, Roel and others",
+      title          = "{Search for lepton-universality violation in $B^+\to
+                        K^+\ell^+\ell^-$ decays}",
+      collaboration  = "LHCb",
+      year           = "2019",
+      eprint         = "1903.09252",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "LHCb-PAPER-2019-009 CERN-EP-2019-043",
+      SLACcitation   = "%%CITATION = ARXIV:1903.09252;%%"
+      }'
+DOI: TBA
+FileName: CERN-EP-2019-043.yaml
+Name: Rk_q2_1.1_6
+Source: LHCb
+SubmissionYear: 2019
+PublicationYear: 2019
+Arxiv: 1903.09252
+Collaborations: LHCb
+ExperimentalDataLumi: 5fb
+ExperimentalDataYears: 2011,2012,2015,2016
+Decay: Rk
+Kinematics: "q2>1.1 && q2< 6"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_nDimBifurGaussian
+ROOTData: data/LHCb/RD/B2KEllEll/Rk.root
+TGraphPath: "Rk"
