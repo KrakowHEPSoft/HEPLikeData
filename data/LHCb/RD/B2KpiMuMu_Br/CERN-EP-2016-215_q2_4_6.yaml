@@ -1,0 +1,35 @@
+BibCite: Aaij:2016kqt
+BibEntry: '@article{Aaij:2016kqt,
+      author         = "Aaij, Roel and others",
+      title          = "{Differential branching fraction and angular moments
+                        analysis of the decay $B^0 \to K^+ \pi^- \mu^+ \mu^-$ in
+                        the $K^*_{0,2}(1430)^0$ region}",
+      collaboration  = "LHCb",
+      journal        = "JHEP",
+      volume         = "12",
+      year           = "2016",
+      pages          = "065",
+      doi            = "10.1007/JHEP12(2016)065",
+      eprint         = "1609.04736",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-215, LHCB-PAPER-2016-025",
+      SLACcitation   = "%%CITATION = ARXIV:1609.04736;%%"
+      }'
+DOI: 10.1007/JHEP12(2016)065
+FileName: CERN-EP-2016-215_q2_4_6.yaml
+Name: Kpimumu_Br_q2_4_6
+Source: LHCb
+SubmissionYear: 2016
+PublicationYear: 2016
+Arxiv: 1609.04736
+Collaborations: LHCb
+ExperimentalDataLumi: 3fb
+ExperimentalDataYears: 2011,2012
+Decay: "Bd -> K pi mu mu"
+Kinematics: "q2>4 && q2< 6"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_Gaussian
+Observables:
+- [ "Br", 0.56e-8, 0.12e-8, 0.047e-8 ]
