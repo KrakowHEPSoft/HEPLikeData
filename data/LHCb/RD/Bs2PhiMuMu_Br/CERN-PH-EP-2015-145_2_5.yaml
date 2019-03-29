@@ -1,0 +1,34 @@
+BibCite: Aaij:2015esa
+BibEntry: '@article{Aaij:2015esa,
+      author         = "Aaij, Roel and others",
+      title          = "{Angular analysis and differential branching fraction of
+                        the decay $B^0_s\to\phi\mu^+\mu^-$}",
+      collaboration  = "LHCb",
+      journal        = "JHEP",
+      volume         = "09",
+      year           = "2015",
+      pages          = "179",
+      doi            = "10.1007/JHEP09(2015)179",
+      eprint         = "1506.08777",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2015-145, LHCB-PAPER-2015-023",
+      SLACcitation   = "%%CITATION = ARXIV:1506.08777;%%"
+      }'
+DOI: "10.1007/JHEP09(2015)179"
+FileName:  CERN-PH-EP-2015-145_2_5.yaml
+Name: phimumu_Br_q2_2_5
+Source: LHCb
+SubmissionYear: 2015
+PublicationYear: 2015
+Arxiv: 1506.08777
+Collaborations: LHCb
+ExperimentalDataLumi: 3fb
+ExperimentalDataYears: 2011,2012
+Decay: "Bs -> Phi mu mu"
+Kinematics: "q2>2 && q2< 5"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_BifurGaussian
+Observables:
+- [ "Br", 2.56e-8, 0.42e-8, -0.39e-8, 0.20e-8 ]
