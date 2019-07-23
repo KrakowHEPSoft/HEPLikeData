@@ -1,0 +1,49 @@
+BibCite: Amhis:2016xyh
+BibEntry: '@article{Amhis:2016xyh,
+      author         = "Amhis, Y. and others",
+      title          = "{Averages of $b$-hadron, $c$-hadron, and $\tau$-lepton
+                        properties as of summer 2016}",
+      collaboration  = "HFLAV",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "12",
+      pages          = "895",
+      doi            = "10.1140/epjc/s10052-017-5058-4",
+      eprint         = "1612.07233",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-16-611-ND",
+      SLACcitation   = "%%CITATION = ARXIV:1612.07233;%%"
+      }'
+DOI: 10.1140/epjc/s10052-017-5058-4
+FileName: b2sgamma.yaml
+Name: b2sgamma_Br
+Source: HFLAV
+SubmissionYear: 2016
+PublicationYear: 2017
+Arxiv: 1612.07233
+Collaborations: HFLAV
+ExperimentalDataLumi: AVERAGE
+ExperimentalDataYears: AVERAGE
+Decay: "b -> s gamma"
+Kinematics: "Egamma>1.6"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bohm@cern.ch
+HL_Type: HL_Gaussian
+Observables:
+- ["BR_b2sgamma", 332.e-6, 15. ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
