@@ -32,7 +32,7 @@ HLAuthor: Jihyun Bhom
 HLEmail: jihyun.bohm@cern.ch
 HL_Type: HL_Gaussian
 Observables:
-- ["BR_b2sgamma", 332.e-6, 15. ]
+- ["BR_b2sgamma", 332.e-6, 15.e-6 ]
 
 
 
