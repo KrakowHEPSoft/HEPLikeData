@@ -20,7 +20,8 @@ FileName: CERN-PH-EP-2012-263_q2_2_4.3.yaml
 Name: Kmumu_Br_q2_2_4.3
 Source: LHCb
 SubmissionYear: 2012
-PublicationYear: 2013                                                                                                 Arxiv: 1209.4284
+PublicationYear: 2013
+Arxiv: 1209.4284
 Collaborations: LHCb
 ExperimentalDataLumi: 1fb
 ExperimentalDataYears: 2011
