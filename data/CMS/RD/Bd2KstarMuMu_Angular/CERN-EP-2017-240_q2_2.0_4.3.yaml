@@ -1,0 +1,40 @@
+BibCite: Sirunyan:2017dhj
+BibEntry: '@article{Sirunyan:2017dhj,
+      author         = "Sirunyan, Albert M and others",
+      title          = "{Measurement of angular parameters from the decay
+                        $\mathrm{B}^0 \to \mathrm{K}^{*0} \mu^+ \mu^-$ in
+                        proton-proton collisions at $\sqrt{s} = $ 8 TeV}",
+      collaboration  = "CMS",
+      journal        = "Phys. Lett.",
+      volume         = "B781",
+      year           = "2018",
+      pages          = "517-541",
+      doi            = "10.1016/j.physletb.2018.04.030",
+      eprint         = "1710.02846",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-BPH-15-008, CERN-EP-2017-240",
+      SLACcitation   = "%%CITATION = ARXIV:1710.02846;%%"
+}'
+DOI: 10.1016/j.physletb.2018.04.030
+FileName: CERN-EP-2017-240_q2_2.0_4.3.yaml
+Name: Kstarmumu_Angular_q2_2.0_4.3
+Source: CMS
+SubmissionYear: 2017
+PublicationYear: 2018
+Collaborations: CMS
+ExperimentalDataLumi: 20.5fb
+ExperimentalDataYears: 2011,2012
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>2.0 && q2< 4.3"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bhom@ifj.edu.pl
+HL_Type: HL_nDimBifurGaussian 
+
+Observables:
+- [ "P_1", -0.69, 0.58, -0.27, 0.23 ]
+- [ "P_5", -0.57, 0.34, -0.31, 0.18 ]
+Correlation:
+-  [ "P_1", "P_5" ]
+-  [  1.00 , -0.0452 ]
+-  [  -0.0452, 1.00]
