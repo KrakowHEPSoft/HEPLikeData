@@ -1,0 +1,30 @@
+BibCite: Horiguchi:2017ntw
+BibEntry: '@article{Amhis:2019ckw,
+      author         = "Amhis, Yasmine Sara and others",
+      title          = "{Averages of $b$-hadron, $c$-hadron, and $\tau$-lepton
+                        properties as of 2018}",
+      collaboration  = "HFLAV",
+      year           = "2019",
+      eprint         = "1909.12524",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1909.12524;%%"
+}'
+DOI: 10.1103/PhysRevLett.119.191802
+FileName: B2Kstar_gamma_S.yaml
+Name: B2Kstar_gamma_SKstarGamma.yaml
+Source: HFLAV
+SubmissionYear: 2019
+PublicationYear: 2020
+Collaborations: HFLAV
+ExperimentalDataLumi: AVERAGE
+ExperimentalDataYears:  AVERAGE
+Decay: "B -> Kstar gamma"
+Kinematics: "Egamma>1.8"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bhom@ifj.edu.pl
+HL_Type: HL_Gaussian 
+
+Observables:
+- [ "SKstarGamma", -0.16, 0.22 ]
+
