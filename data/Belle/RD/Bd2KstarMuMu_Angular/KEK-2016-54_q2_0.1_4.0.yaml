@@ -1,0 +1,40 @@
+BibCite: Wehle:2016yo
+BibEntry: '@article{Wehle:2016yoi,
+      author         = "Wehle, S. and others",
+      title          = "{Lepton-Flavor-Dependent Angular Analysis of $B\to K^\ast
+                        \ell^+\ell^-$}",
+      collaboration  = "Belle",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "118",
+      year           = "2017",
+      number         = "11",
+      pages          = "111801",
+      doi            = "10.1103/PhysRevLett.118.111801",
+      eprint         = "1612.05014",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "BELLE-PREPRINT-2016-15, KEK-PREPRINT-2016-54",
+      SLACcitation   = "%%CITATION = ARXIV:1612.05014;%%"
+}'
+DOI: 10.1103/PhysRevLett.118.111801
+FileName: KEK-2016-54_q2_0.1_4.0.yaml
+Name: Kstarmumu_Angular_q2_0.1_4.0
+Source: Belle
+SubmissionYear: 2016
+PublicationYear: 2017
+Collaborations: Belle
+ExperimentalDataLumi: 711fb
+ExperimentalDataYears:  1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>0.1 && q2< 4.0"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bhom@ifj.edu.pl
+HL_Type: HL_nDimBifurGaussian 
+
+Observables:
+- [ "P_4", -0.38, 0.50, -0.48, 0.12 ]
+- [ "P_5",  0.42, 0.39, -0.39, 0.14 ]
+Correlation:
+-  [ "P_4", "P_5" ]
+-  [  1.00 , 0. ]
+-  [  0. , 1.00]

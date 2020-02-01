@@ -1,0 +1,49 @@
+BibCite: Aaboud:2018krd
+BibEntry: '@article{Aaboud:2018krd,
+      author         = "Aaboud, Morad and others",
+      title          = "{Angular analysis of $B^0_d \rightarrow K^{*}\mu^+\mu^-$
+                        decays in $pp$ collisions at $\sqrt{s}= 8$ TeV with the
+                        ATLAS detector}",
+      collaboration  = "ATLAS",
+      journal        = "JHEP",
+      volume         = "10",
+      year           = "2018",
+      pages          = "047",
+      doi            = "10.1007/JHEP10(2018)047",
+      eprint         = "1805.04000",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2017-161",
+      SLACcitation   = "%%CITATION = ARXIV:1805.04000;%%"
+}'
+DOI: 10.1007/JHEP10(2018)047
+FileName: CERN-EP-2017-161_q2_2.0_4.0.yaml
+Name: Kstarmumu_Angular_q2_2.0_4.0
+Source: ATLAS
+SubmissionYear: 2018
+PublicationYear: 2018
+Collaborations: ATLAS
+ExperimentalDataLumi: 20.3fb
+ExperimentalDataYears:  2012
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>2.0 && q2< 4.0"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bhom@ifj.edu.pl
+HL_Type: HL_nDimGaussian 
+
+Observables:
+- [ "F_L", 0.64, 0.11, 0.05 ]
+- [ "S_3", -0.15, 0.10, 0.07 ]
+- [ "S_4", -0.37, 0.15, 0.10 ]
+- [ "S_5", -0.16, 0.15, 0.06 ]
+- [ "S_7",  0.15, 0.14, 0.09 ]
+- [ "S_8",  0.52, 0.20, 0.05 ]
+
+Correlation:
+-  [ "F_L", "S_3", "S_4", "S_5", "S_7", "S_8"  ]
+-  [  1.00  ,    0.00  ,    0.00  ,    0.00  ,    0.00  ,    0.00  ]
+-  [  0.00  ,    1.00  ,    0.00  ,    0.00  ,    0.00  ,    0.00  ]  
+-  [  0.00  ,    0.00  ,    1.00  ,    0.00  ,    0.00  ,    0.00  ]
+-  [  0.00  ,    0.00  ,    0.00  ,    1.00  ,    0.00  ,    0.00  ]
+-  [  0.00  ,    0.00  ,    0.00  ,    0.00  ,    1.00  ,    0.00  ]
+-  [  0.00  ,    0.00  ,    0.00  ,    0.00  ,    0.00  ,    1.00  ]
