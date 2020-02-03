@@ -31,7 +31,7 @@ Kinematics: "ALL"
 HLAuthor: Jihyun Bhom
 HLEmail: jihyun.bohm@cern.ch
 HL_Type: HL_nDimLikelihood
-ROOTData: data/ATLAS/RD/B2MuMu/
+ROOTData: data/ATLAS/RD/B2MuMu/B2mumu_ATLAS.root
 TH2Path: "b2mumu_ATLAS"
 Observables:
 - ["BR_Bs2mumu", 2.837480516296651e-09]
