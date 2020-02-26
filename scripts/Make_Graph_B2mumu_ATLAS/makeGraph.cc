@@ -730,7 +730,7 @@ int main(int argv, char* argc[])
       for(int iy=1; iy<50; iy++)
         {
           double p=Z[ix-1][iy-1];
-          double loglikelihood=-log(p);
+          double loglikelihood=-log(p)/2.;
             
           hist2D.SetBinContent(ix, iy, loglikelihood);
         }
