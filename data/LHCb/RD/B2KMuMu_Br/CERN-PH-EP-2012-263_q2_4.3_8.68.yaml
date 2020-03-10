@@ -31,4 +31,4 @@ HLAuthor: Jihyun Bhom
 HLEmail: jihyun.bhom@ifj.edu.pl
 HL_Type: HL_Gaussian                                                                                                   
 Observables:
-- [ "Br",   2.29 , 0.16 , 0.09 ]
+- [ "Br",   2.29e-8 , 0.16e-8 , 0.09e-8 ]
