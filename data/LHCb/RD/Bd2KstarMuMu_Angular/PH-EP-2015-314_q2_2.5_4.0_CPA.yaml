@@ -17,8 +17,8 @@ BibEntry: '@article{Aaij:2015oid,
      SLACcitation   = "%%CITATION = ARXIV:1512.04442;%%"
 }'
 DOI: 10.1007/JHEP02(2016)104
-FileName: PH-EP-2015-314_q2_2.5_4_CPA.yaml
-Name: Kstarmumu_Angular_q2_2.5_4_CPA
+FileName: PH-EP-2015-314_q2_2.5_4.0_CPA.yaml
+Name: Kstarmumu_Angular_q2_2.5_4.0_CPA
 Source: LHCb
 SubmissionYear: 2015
 PublicationYear: 2016
