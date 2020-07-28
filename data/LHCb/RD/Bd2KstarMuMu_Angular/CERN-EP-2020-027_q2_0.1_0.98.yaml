@@ -1,0 +1,52 @@
+BibCite: Aaij:2020nrf
+BibEntry: '@article{Aaij:2020nrf,
+    author = "Aaij, Roel and others",
+    collaboration = "LHCb",
+    title = "{Measurement of $C\!P$-averaged observables in the $B^{0}\rightarrow K^{*0}\mu^{+}\mu^{-}$ decay}",
+    eprint = "2003.04831",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "LHCb-PAPER-2020-002, CERN-EP-2020-027",
+    doi = "10.1103/PhysRevLett.125.011802",
+    journal = "Phys. Rev. Lett.",
+    volume = "125",
+    number = "1",
+    pages = "011802",
+    year = "2020"
+}'
+DOI: 10.1103/PhysRevLett.125.011802
+FileName: CERN-EP-2020-027_q2_0.1_0.98.yaml
+Name: Kstarmumu_Angular_q2_0.1_0.98
+Source: LHCb
+SubmissionYear: 2020
+PublicationYear: 2020
+Arxiv: 2003.04831
+Collaborations: LHCb
+ExperimentalDataLumi: 5fb
+ExperimentalDataYears: 2011,2012,2016
+Decay: "Bd -> Kstar mu mu"
+Kinematics: "q2>0.1 && q2< 0.98"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_nDimGaussian
+
+Observables:
+- [ "F_L", 0.255,  0.032,  0.007 ]
+- [ "S_3", 0.034,  0.044,  0.003 ]
+- [ "S_4", 0.059,  0.050, 0.004 ]
+- [ "S_5", 0.227,  0.041, 0.008 ]
+- [ "A_FB", -0.004, 0.040, 0.004 ]
+- [ "S_7",  0.006,  0.042, 0.002 ]
+- [ "S_8", -0.030, 0.051, 0.001 ]
+- [ "S_9", -0.055, 0.041, 0.002 ]
+Correlation:
+-  [ "F_L", "S_3", "S_4", "S_5", "A_FB", "S_7", "S_8", "S_9" ]
+-  [  1.00  ,    0.00  ,   -0.03  ,    0.09  ,    0.03  ,   -0.01  ,    0.06  ,    0.03 ]
+-  [  0.00  ,    1.00  ,    0.02  ,    0.14  ,    0.02  ,   -0.06  ,    0.01  ,   -0.01 ]
+-  [ -0.03  ,    0.02  ,    1.00  ,    0.06  ,    0.15  ,   -0.03  ,    0.06  ,    0.00 ]
+-  [  0.09  ,    0.14  ,    0.06  ,    1.00  ,    0.04  ,   -0.03  ,   -0.01  ,    0.00 ]
+-  [  0.03  ,    0.02  ,    0.15  ,    0.04  ,    1.00  ,   -0.02  ,   -0.01  ,   -0.02 ]
+-  [ -0.01  ,   -0.06  ,   -0.03  ,   -0.03  ,   -0.02  ,    1.00  ,   -0.04  ,    0.10 ]
+-  [  0.06  ,    0.01  ,    0.06  ,   -0.01  ,   -0.01  ,   -0.04  ,    1.00  ,    0.02 ]
+-  [  0.03 ,    -0.01  ,    0.00  ,    0.00  ,   -0.02  ,    0.10  ,    0.02  ,    1.00 ]
+     
