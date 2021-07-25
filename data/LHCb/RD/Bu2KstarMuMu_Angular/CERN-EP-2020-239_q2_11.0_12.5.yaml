@@ -1,0 +1,52 @@
+BibCite: LHCb:2020gog       
+BibEntry: '@article{LHCb:2020gog,
+    author = "Aaij, Roel and others",
+    collaboration = "LHCb",
+    title = "{Angular Analysis of the  $B^{+}\rightarrow K^{\ast+}\mu^{+}\mu^{-}$ Decay}",
+    eprint = "2012.13241",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "LHCb-PAPER-2020-041, CERN-EP-2020-239",
+    doi = "10.1103/PhysRevLett.126.161802",
+    journal = "Phys. Rev. Lett.",
+    volume = "126",
+    number = "16",
+    pages = "161802",
+    year = "2021"
+}'
+DOI: 10.1103/PhysRevLett.126.161802
+FileName: CERN-EP-2020-239_q2_11.0_12.5.yaml
+Name: Kstarmumu_Angular_q2_11.0_12.5
+Source: LHCb
+SubmissionYear: 2020
+PublicationYear: 2021
+Arxiv: 
+Collaborations: LHCb
+ExperimentalDataLumi: 9fb
+ExperimentalDataYears: 2011,2012,2015,2016,2017,2018
+Decay: "Bu -> Kstar mu mu"
+Kinematics: "q2>11.0 && q2< 12.5"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bhom@cern.ch
+HL_Type: HL_nDimBifurGaussian
+
+Observables:
+- [ "F_L",   0.39,   0.24, -0.17, 0.02 ]
+- [ "S_3",  -0.10,   0.13, -0.13, 0.02 ]
+- [ "S_4",  -0.31,   0.14, -0.17, 0.02 ]
+- [ "S_5",  -0.43,   0.14, -0.16, 0.02 ]
+- [ "A_FB",  0.54,   0.21, -0.18, 0.05 ]
+- [ "S_7",  -0.05,   0.14, -0.14, 0.01 ]
+- [ "S_8",   0.06,   0.14, -0.14, 0.01 ]
+- [ "S_9",   0.19,   0.24, -0.19, 0.03 ]
+Correlation:
+-  [ "F_L", "S_3", "S_4", "S_5", "A_FB", "S_7", "S_8", "S_9" ]
+-  [  1.00  ,    0.09  ,    0.03  ,    0.09  ,   -0.44  ,   -0.09  ,   -0.13  ,   -0.08 ]
+-  [  0.09  ,    1.00  ,   -0.08  ,   -0.13  ,   -0.08  ,   -0.04  ,   -0.04  ,   -0.19 ]
+-  [  0.03  ,   -0.08  ,    1.00  ,    0.08  ,    0.06  ,   -0.05  ,   -0.09  ,    0.12 ]
+-  [  0.09  ,   -0.13  ,    0.08  ,    1.00  ,   -0.30  ,    0.05  ,   -0.04  ,   -0.10 ]
+-  [ -0.44  ,   -0.08  ,    0.06  ,   -0.30  ,    1.00  ,    0.10  ,    0.11  ,    0.15 ]
+-  [ -0.09  ,   -0.04  ,   -0.05  ,    0.05  ,    0.10  ,    1.00  ,    0.05  ,   -0.07 ]
+-  [ -0.13  ,   -0.04  ,   -0.09  ,   -0.04  ,    0.11  ,    0.05  ,    1.00  ,   -0.07 ]
+-  [ -0.08  ,   -0.19  ,    0.12  ,   -0.10  ,    0.15  ,   -0.07  ,   -0.07  ,    1.00 ]
+     
