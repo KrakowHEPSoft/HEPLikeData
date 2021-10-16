@@ -32,7 +32,7 @@ HLEmail: jihyun.bhom@ifj.edu.pl
 HL_Type: HL_nDimBifurGaussian 
 
 Observables:
-- [ "P_4",  0.11, 0.32, -0.31  0.05 ]
+- [ "P_4",  0.11, 0.32, -0.31, 0.05 ]
 - [ "P_5",  0.47, 0.27, -0.28, 0.05 ]
 Correlation:
 -  [ "P_4", "P_5" ]

@@ -1,0 +1,44 @@
+BibCite: LHCb:2020dof
+BibEntry: '@article{LHCb:2020dof,
+    author = "Aaij, Roel and others",
+    collaboration = "LHCb",
+    title = "{Strong constraints on the $b \to s\gamma$ photon polarisation from $B^0 \to K^{*0} e^+ e^-$ decays}",
+    eprint = "2010.06011",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "LHCb-PAPER-2020-020, CERN-EP-2020-176",
+    doi = "10.1007/JHEP12(2020)081",
+    journal = "JHEP",
+    volume = "12",
+    pages = "081",
+    year = "2020"
+}'
+DOI: 10.1007/JHEP12(2020)081
+FileName: CERN-EP-2020-176.yaml
+Name: Kstaree_Angular_q2_0.0008_0.257
+Source: LHCb
+SubmissionYear: 2020
+PublicationYear: 2020
+Arxiv: 2010.06011
+Collaborations: LHCb
+ExperimentalDataLumi: 9fb 
+ExperimentalDataYears: 2011,2012,2015,2016,2017,2018
+Decay: "Bd -> Kstar e e"
+Kinematics: "q2>0.0008 && q2< 0.257"
+HLAuthor: Marcin Chrzaszcz
+HLEmail: mchrzasz@cern.ch
+HL_Type: HL_nDimGaussian
+
+Observables:
+- [ "F_L",    0.044,  0.026,  0.014]
+- [ "AT_Re", -0.06,   0.08,   0.02 ]
+- [ "AT_2",   0.11,   0.10,   0.02 ]
+- [ "AT_Im",  0.02,   0.10,   0.01 ]
+Correlation:
+-  [ "F_L",     "AT_Re",   "AT_2" ,   "AT_Im" ]
+-  [  1.00  ,   -0.02  ,   -0.01  ,    0.02   ]
+-  [ -0.02  ,    1.00  ,    0.05  ,    0.02   ]
+-  [ -0.01  ,    0.05  ,    1.00  ,    0.10   ]
+-  [  0.02  ,    0.02  ,    0.10  ,    1.00   ]
+
+     
