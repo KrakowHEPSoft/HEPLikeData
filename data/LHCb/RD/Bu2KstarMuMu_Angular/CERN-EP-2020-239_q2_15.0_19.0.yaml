@@ -15,8 +15,8 @@ BibEntry: '@article{LHCb:2020gog,
     year = "2021"
 }'
 DOI: 10.1103/PhysRevLett.126.161802
-FileName: CERN-EP-2020-239_q2_15.0_19.yaml
-Name: Kstarmumu_Angular_q2_15.0_19
+FileName: CERN-EP-2020-239_q2_15.0_19.0.yaml
+Name: Kstarmumu_Angular_q2_15.0_19.0
 Source: LHCb
 SubmissionYear: 2020
 PublicationYear: 2021
