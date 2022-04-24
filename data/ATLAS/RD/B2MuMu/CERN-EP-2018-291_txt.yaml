@@ -1,0 +1,39 @@
+BibCite: Aaboud:2018mst
+BibEntry: '@article{Aaboud:2018mst,
+      author         = "Aaboud, Morad and others",
+      title          = "{Study of the rare decays of $B^0_s$ and $B^0$ mesons
+                        into muon pairs using data collected during 2015 and 2016
+                        with the ATLAS detector}",
+      collaboration  = "ATLAS",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2019",
+      pages          = "098",
+      doi            = "10.1007/JHEP04(2019)098",
+      eprint         = "1812.03017",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2018-291",
+      SLACcitation   = "%%CITATION = ARXIV:1812.03017;%%"
+}'
+DOI: 10.1007/JHEP04(2019)098
+FileName: CERN-EP-2018-291_txt.yaml
+Name: B2mumu_Br
+Source: ATLAS
+SubmissionYear: 2018
+PublicationYear: 2019
+Arxiv: 1812.03017
+Collaborations: ATLAS
+ExperimentalDataLumi: 26.3fb
+ExperimentalDataYears: 2011,2012,2015,2016
+Decay: "B -> mu mu"
+Kinematics: "ALL"
+HLAuthor: Jihyun Bhom
+HLEmail: jihyun.bohm@cern.ch
+HL_Type: HL_nDimLikelihood
+TextData: data/ATLAS/RD/B2MuMu/B2mumu_ATLAS.dat
+Observables:
+- ["BR_Bs2mumu", 2.837480516296651e-09]
+- ["BR_Bd2mumu", 1.8607464155872002e-10]
+
+
