@@ -33,6 +33,7 @@ HLAuthor: Jihyun Bhom
 HLEmail: jihyun.bohm@cern.ch
 HL_Type: HL_nDimLikelihood
 ROOTData: data/LHCb/RD/B2MuMu/histB2mumu_2017.root
+TextData: data/LHCb/RD/B2MuMu/histB2mumu_2017.dat
 TH2Path: "h_2DScan"
 Observables:
 - ["BR_Bs2mumu", 3.e-9]

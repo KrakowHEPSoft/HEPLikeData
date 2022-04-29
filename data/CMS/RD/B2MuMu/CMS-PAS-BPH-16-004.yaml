@@ -25,6 +25,7 @@ HLAuthor: Jihyun Bhom
 HLEmail: jihyun.bohm@cern.ch
 HL_Type: HL_nDimLikelihood
 ROOTData: data/CMS/RD/B2MuMu/B2mumu_CMS.root
+TextData: data/CMS/RD/B2MuMu/B2mumu_CMS.dat
 TH2Path: "b2mumu_CMS"
 Observables:
 - ["BR_Bs2mumu", 2.936395136708043e-09]
