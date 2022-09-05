@@ -27,4 +27,5 @@ HLAuthor: Marcin Chrzaszcz
 HLEmail: mchrzasz@cern.ch
 HL_Type: HL_ProfLikelihood
 ROOTData: data/LHCb/RD/Rk/Rk.root
+TextData: data/LHCb/RD/Rk/Rk.dat
 TGraphPath: "Rk"
