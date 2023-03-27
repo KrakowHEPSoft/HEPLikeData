@@ -1,0 +1,31 @@
+BibCite: Belle-II:2021rof
+BibEntry: '@article{Belle-II:2021rof,
+    author = "Abudinen, F. and others",
+    collaboration = "Belle-II",
+    title = "{Search for B+\textrightarrow{}K+\ensuremath{\nu}\ensuremath{\nu}\textasciimacron{} Decays Using an Inclusive Tagging Method at Belle II}",
+    eprint = "2104.12624",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "Belle II Preprint 2021-001, KEK Preprint 2020-45",
+    doi = "10.1103/PhysRevLett.127.181802",
+    journal = "Phys. Rev. Lett.",
+    volume = "127",
+    number = "18",
+    pages = "181802",
+    year = "2021"
+}'
+DOI: 10.1103/PhysRevLett.127.181802
+FileName: KEK-2020-45.yaml
+Name: Bp2Kpnunu
+Source: BelleII
+SubmissionYear: 2020
+PublicationYear: 2021
+Collaborations: BelleII
+ExperimentalDataLumi: 63fb
+Decay: "B+ -> K+ nu nu"
+HLAuthor: Tomas Gonzalo
+HLEmail: tomas.gonzalo@kit.edu
+HL_Type: HL_BifurGaussian
+
+Observables:
+- [ "Br", 1.9e-5, 1.3e-5, -1.3e-5, 0.8e-5, -0.7e-5 ]
