@@ -1,0 +1,29 @@
+BibCite: Belle:2013tnz
+BibEntry: '@article{Belle:2013tnz,
+    author = "Lutz, O. and others",
+    collaboration = "Belle",
+    title = "{Search for $B \to h^{(*)} \nu \bar{\nu}$ with the full Belle $\Upsilon(4S)$ data sample}",
+    eprint = "1303.3719",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "BELLE-PREPRINT-2013-1, KEK-PREPRINT-2012-37",
+    doi = "10.1103/PhysRevD.87.111103",
+    journal = "Phys. Rev. D",
+    volume = "87",
+    number = "11",
+    pages = "111103",
+    year = "2013"
+}'
+DOI: 10.1103/PhysRevD.87.111103
+FileName: KEK-2012-37.yaml
+Name: Bp2KpNuNu
+Source: Belle
+SubmissionYear: 2012
+PublicationYear: 2013
+Collaborations: Belle
+ExperimentalDataLumi: 711fb
+Decay: "B+ -> K+ nu nu"
+HLAuthor: Tomas Gonzalo
+HLEmail: tomas.gonzalo@kit.edu
+HL_Type: HL_Limit
+UL90CL: 5.5e-5

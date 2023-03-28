@@ -1,0 +1,29 @@
+BibCite: Belle:2017oht
+BibEntry: '@article{Belle:2017oht,
+    author = "Grygier, J. and others",
+    collaboration = "Belle",
+    title = "{Search for $\boldsymbol{B\to h\nu\bar{\nu}}$ decays with semileptonic tagging at Belle}",
+    eprint = "1702.03224",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    doi = "10.1103/PhysRevD.96.091101",
+    journal = "Phys. Rev. D",
+    volume = "96",
+    number = "9",
+    pages = "091101",
+    year = "2017",
+    note = "[Addendum: Phys.Rev.D 97, 099902 (2018)]"
+}'
+DOI: 10.1103/PhysRevD.96.091101
+FileName: KEK-2017-6.yaml
+Name: Bp2KpNuNu
+Source: Belle
+SubmissionYear: 2017
+PublicationYear: 2017
+Collaborations: Belle
+ExperimentalDataLumi: 711fb
+Decay: "B+ -> K*+ nu nu"
+HLAuthor: Tomas Gonzalo
+HLEmail: tomas.gonzalo@kit.edu
+HL_Type: HL_Limit
+UL90CL: 6.1e-5
