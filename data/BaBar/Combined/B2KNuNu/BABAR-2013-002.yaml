@@ -1,0 +1,29 @@
+BibCite: BaBar:2013npw
+BibEntry: '@article{BaBar:2013npw,
+    author = "Lees, J. P. and others",
+    collaboration = "BaBar",
+    title = "{Search for $B \to K^{(*)} \nu \overline \nu$ and invisible quarkonium decays}",
+    eprint = "1303.7465",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "BABAR-CONF-13-002, SLAC-PUB-15411, BABAR-PUB-13-002",
+    doi = "10.1103/PhysRevD.87.112005",
+    journal = "Phys. Rev. D",
+    volume = "87",
+    number = "11",
+    pages = "112005",
+    year = "2013"
+}'
+DOI: 10.1103/PhysRevD.87.112005
+FileName: BABAR-2013-002
+Name: B2KNuNu
+Source: BaBar
+SubmissionYear: 2013
+PublicationYear: 2013
+Collaborations: BaBar
+ExperimentalDataLumi: 429fb
+Decay: "B -> K nu nu"
+HLAuthor: Tomas Gonzalo
+HLEmail: tomas.gonzalo@kit.edu
+HL_Type: HL_Limit
+UL90CL: 4.9e-5

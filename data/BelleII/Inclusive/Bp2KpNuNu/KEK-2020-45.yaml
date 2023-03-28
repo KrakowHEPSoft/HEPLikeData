@@ -26,6 +26,5 @@ Decay: "B+ -> K+ nu nu"
 HLAuthor: Tomas Gonzalo
 HLEmail: tomas.gonzalo@kit.edu
 HL_Type: HL_BifurGaussian
-
 Observables:
 - [ "Br", 1.9e-5, 1.3e-5, -1.3e-5, 0.8e-5, -0.7e-5 ]
