@@ -16,13 +16,13 @@ BibEntry: '@article{Belle-II:2021rof,
 }'
 DOI: 10.1103/PhysRevLett.127.181802
 FileName: KEK-2020-45.yaml
-Name: Bp2KpNuNu
+Name: Bu2KNuNu
 Source: BelleII
 SubmissionYear: 2020
 PublicationYear: 2021
 Collaborations: BelleII
 ExperimentalDataLumi: 63fb
-Decay: "B+ -> K+ nu nu"
+Decay: "B_u+ -> K+ nu nu"
 HLAuthor: Tomas Gonzalo
 HLEmail: tomas.gonzalo@kit.edu
 HL_Type: HL_BifurGaussian

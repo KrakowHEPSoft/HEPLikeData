@@ -16,13 +16,13 @@ BibEntry: '@article{Belle:2013tnz,
 }'
 DOI: 10.1103/PhysRevD.87.111103
 FileName: KEK-2012-37.yaml
-Name: Bp2KstarpNuNu
+Name: Bu2KstarNuNu
 Source: Belle
 SubmissionYear: 2012
 PublicationYear: 2013
 Collaborations: Belle
 ExperimentalDataLumi: 711fb
-Decay: "B+ -> K*+ nu nu"
+Decay: "B_u+ -> K*+ nu nu"
 HLAuthor: Tomas Gonzalo
 HLEmail: tomas.gonzalo@kit.edu
 HL_Type: HL_Limit

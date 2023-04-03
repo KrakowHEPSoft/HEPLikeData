@@ -16,13 +16,13 @@ BibEntry: '@article{BaBar:2013npw,
 }'
 DOI: 10.1103/PhysRevD.87.112005
 FileName: BABAR-2013-002
-Name: Bp2KpNuNu
+Name: Bu2KNuNu
 Source: BaBar
 SubmissionYear: 2013
 PublicationYear: 2013
 Collaborations: BaBar
 ExperimentalDataLumi: 429fb
-Decay: "B+ -> K+ nu nu"
+Decay: "B_u+ -> K+ nu nu"
 HLAuthor: Tomas Gonzalo
 HLEmail: tomas.gonzalo@kit.edu
 HL_Type: HL_Limit
